@@ -746,7 +746,7 @@ export async function extractFromTranscript(
 
   // 1. Try calling the backend Groq LLM extraction endpoint first
   try {
-    const res = await fetch("/api/extract", {
+    const res = await fetch(`${import.meta.env.VITE_API_URL}/api/extract`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -807,7 +807,7 @@ export function useIngestConversation(options?: any) {
         const formData = new FormData();
         formData.append("file", data.file);
 
-        const res = await fetch("/api/transcribe", {
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/transcribe`, {
           method: "POST",
           body: formData
         });
@@ -869,4 +869,9 @@ export function useIngestConversation(options?: any) {
     },
     ...options?.mutation
   });
+}
+
+export async function checkHealth(): Promise<{ status: string; uptime?: number }> {
+  const res = await fetch(`${import.meta.env.VITE_API_URL}/api/health`);
+  return res.json();
 }
