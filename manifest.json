@@ -1,0 +1,33 @@
+{
+  "source_url": "https://53e4a317-9503-4a4d-ac81-d680d7c95903-00-4b87lyjvfkxi.sisko.replit.dev/inbox",
+  "files": {
+    "package.json": 2747,
+    "tsconfig.json": 520,
+    "components.json": 434,
+    "vite.config.ts": 6428,
+    "EXTRACTION.md": 3859,
+    "src/main.tsx": 446,
+    "src/index.css": 147939,
+    "src/App.tsx": 2097,
+    "lib/api-client-react/src/index.ts": 194,
+    "src/components/error-boundary.tsx": 2735,
+    "src/components/shell.tsx": 3402,
+    "src/components/task-row.tsx": 3812,
+    "src/components/ui-primitives.tsx": 3205,
+    "src/pages/overview.tsx": 4505,
+    "src/pages/project-detail.tsx": 5518,
+    "src/pages/not-found.tsx": 739,
+    "src/pages/workload.tsx": 2979,
+    "src/pages/settings.tsx": 3523,
+    "src/pages/inbox.tsx": 5901,
+    "src/pages/projects.tsx": 2146,
+    "src/pages/time.tsx": 3945,
+    "src/pages/notifications.tsx": 2935,
+    "src/hooks/use-toast.ts": 3952,
+    "src/lib/utils.ts": 170,
+    "src/components/ui/toaster.tsx": 777,
+    "src/components/ui/tooltip.tsx": 1277,
+    "src/components/ui/card.tsx": 1856,
+    "src/components/ui/toast.tsx": 4871
+  }
+}
